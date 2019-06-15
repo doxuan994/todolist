@@ -69,11 +69,13 @@ export default {
     ul {
         list-style: none;
         padding: 0;
-
+        max-width: 400px;
+        margin: 0 auto;
+        margin-top: 2em;
     }
     li {
-        padding: 10px 0;
-        border-bottom: 1px grey solid;
+        padding: 1em 0;
+        border: 1px grey solid;
     }
 
     .completed {
